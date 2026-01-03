@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dostonjon</title>
+    <style>
+* {margin: 0;padding: 0;box-sizing: border-box }body, html {overflow-x: hidden }body {background-color: #000 }.wrapper {position: relative }.top {background-image: url(./images/bg.avif);background-repeat: no-repeat;background-position: center;background-size: cover;max-width: 1920px;width: 100%;height: 1080px;position: absolute;z-index: 0;margin-left: auto;margin-right: auto;display: flex;align-items: center;justify-content: center;left: 45%;transform: translateX(-45%) }.header {padding-top: 57px }.container {padding: 0 10px }.header__container {max-width: 1012px;margin: 0 auto }.header__top {background-color: #FFFFFF01;box-shadow: 0 0 10px 0 #A78BFA inset;backdrop-filter: blur(20px);border-radius: 24px;max-width: 326px;width: 100%;padding: 5px 23px 6px 16px;margin-left: auto;margin-right: auto;margin-bottom: 46px;color: #fff;display: flex;align-items: center;justify-content: center;gap: 9px }.header__top-dot {background-color: #E11D48;border-radius: 100px;width: 12px;height: 12px }.header__top-text {font-family: "Helvetica Neue", sans-serif;font-weight: 700;font-size: clamp(14px, 4.9vw, 18px);line-height: 25px }.header__top-text span {background: linear-gradient(270deg, #fff 0%, #A78BFA 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;color: transparent }.hero {padding-bottom: 94px }.hero__container {max-width: 1040px;margin-left: auto;margin-right: auto;display: flex;flex-direction: column;align-items: center;justify-content: center;position: relative;z-index: 20 }.hero__img {max-width: 542px;height: auto;object-fit: contain;width: 100% }.hero__title {font-family: "Helvetica Neue", sans-serif;font-weight: 700;font-size: clamp(19.5px, 6.1vw, 50px);line-height: 130%;text-align: center;color: #fff;margin-bottom: 19px }.hero__title span {color: #A78BFA }.hero__subtitle {font-family: sans-serif;font-weight: 400;font-size: clamp(10px, 3vw, 16px);line-height: 25.6px;text-align: center;color: #F5F5F5;margin-bottom: 28px }.hero__btn-box {box-shadow: rgba(255, 255, 255, .2) 0 0 20px 0 inset;background: radial-gradient(14% 50% at 90.2% 100%, rgba(126, 101, 199, .25) 0, rgba(255, 255, 255, .13) 100%);opacity: 1;max-width: 448px;padding: 6.72px;border-radius: 11208.31px;width: 100% }.hero__btn {font-family: "Helvetica Neue", sans-serif;font-weight: 700;font-size: 20.17px;line-height: 32.28px;text-align: center;text-transform: uppercase;padding: 13.45px 0;border: 1.12px solid #FFFFFF4A;border-radius: 1120.83px;background: linear-gradient(272.84deg, #BAFFB8 0%, #47FF4A 30.29%, #BAFFB8 67.29%, #47FF4A 100%);max-width: 448px;width: 100%;height: 72px;cursor: pointer }.hero__row {display: flex;align-items: center;justify-content: center;color: #FAFAFA;gap: 9px;margin-top: 22px }.hero__col {display: flex;align-items: center;gap: 8px }.hero__col-text {font-family: sans-serif;font-weight: 400;font-size: 14px;line-height: 22.4px }@media (max-width:1024px) {.hero__img {max-width: 350px }.top {height: 574px }}@media (max-width:480px) {.header {padding-top: 33px }.hero__subtitle {margin-bottom: 18px }.hero__img {max-width: 258px }.hero__col-text {font-size: 12px }.header__top {max-width: 265px;margin-bottom: 35px }.header__top-text {font-size: 13.5px }.hero__btn-box {max-width: 321px;width: 100% }.hero__btn {font-size: 18px;padding: 19px 0 }.hero__col {gap: 3px }}
+    </style>
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+    </noscript>
+</head>
+
+<body>
+
+    <div class="top"></div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__top">
+                    <div class="header__top-dot"></div>
+                    <p class="header__top-text">
+                        <span>Jonli online tadbir:</span> 9-11-Yanvar
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="container hero__container">
+                <img class="hero__img" src="./images/speaker.avif" loading="lazy" decoding="async" width="542"
+                    height="522" alt="Speaker Img" />
+
+                <h1 class="hero__title">
+                    2026 yilda biznes <span>0dan boshlash yokida borini rivojlantirish bo’yicha</span> bepul
+                    intensiv
+                </h1>
+
+                <p class="hero__subtitle">
+                    ATIGA 50$ BILAN BIZNES BOSHLAB, OYIGA 1.000$-10.000$ <br> DAROMAD QILISHNI 3 KUNDA O’RGANING
+                </p>
+
+                <div class="hero__btn-box">
+                    <button class="hero__btn registerBtn">BEPUL QATNASHISH</button>
+                </div>
+
+                <div class="hero__row">
+                    <div class="hero__col">
+                        <img class="hero__col-icon" src="./images/hero/1.png" loading="lazy" decoding="async" width="24"
+                            height="24" alt="icons" />
+                        <p class="hero__col-text">Yuzingizni ko’rsatmaysiz</p>
+                    </div>
+
+                    <div class="hero__col">
+                        <img class="hero__col-icon" src="./images/hero/2.png" loading="lazy" decoding="async" width="24"
+                            height="24" alt="icons" />
+                        <p class="hero__col-text">Tajriba kerak emas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="topics">
+        <div class="container topics__container">
+            <div class="topics__dot"></div>
+
+            <div class="topics__label">
+                <p class="topics__label-text">Mavzular</p>
+            </div>
+
+            <h2 class="topics__title">Bu 3 kun davomida <br /> o’rganadigan barcha narsalar</h2>
+            <p class="topics__desc">3 kunlik jonli intensivda nimani boshdan kechirishingiz haqida batafsil ma’lumot</p>
+
+            <img class="topics__shaddows" src="./images/topics/shaddow-top.avif" loading="lazy" decoding="async"
+                width="766" height="561" alt="shadow">
+            <img class="topics__shaddow" src="./images/topics/shaddow.avif" loading="lazy" decoding="async" width="766"
+                height="561" alt="shadow">
+            <div class="topics__grid">
+
+                <div class="" style="display: flex; gap: 21px; flex-wrap: wrap; justify-content: center;">
+                    <div class="day-card day-card--1">
+                        <div class="day-card__bg"></div>
+
+                        <div class="day-card__head">
+                            <h3 class="day-card__day">1-KUN</h3>
+                            <img class="day-card__icon" src="./images/topics/icons.avif" loading="lazy" decoding="async"
+                                width="49" height="57" alt="icons" />
+                        </div>
+
+                        <h4 class="day-card__time">️🗓️ 9-Yanvar ⏰ 19:00</h4>
+
+                        <div class="day-card__line"></div>
+                        <h2 class="day-card__title" style="padding-top: 10px; padding-bottom: 10px;">Biznesning asosiy
+                            tamoyillari va <br /> 0 dan biznes boshlash sirlari
+                        </h2>
+                        <div class="day-card__line" style="margin-bottom: 12px;"></div>
+
+                        <div class="day-card__text">
+                            <p>
+                                Biznesni asosiy tamoyillari, kimga kerak, kimga kerak emas? Biznesni pulsiz qanday
+                                ochish va
+                                kengaytirish
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="day-card day-card--1">
+                        <div class="day-card__bg"></div>
+
+                        <div class="day-card__head">
+                            <h3 class="day-card__day">2-KUN</h3>
+                            <img class="day-card__icon" src="./images/topics/icons.avif" loading="lazy" decoding="async"
+                                width="49" height="57" alt="icons" />
+                        </div>
+
+                        <h4 class="day-card__time">️🗓️ 10-Yanvar ⏰ 11:00-19:00</h4>
+
+                        <div class="day-card__line"></div>
+                        <h2 class="day-card__title" style="font-size: clamp(17px, 5.5vw, 24px);">
+                            2026-yillarda tekshirilgan, pulsiz <br />
+                            va oson daromadga chiqsa <br />
+                            bo’ladigan biznes sohalar
+                        </h2>
+                        <div class="day-card__line"></div>
+
+                        <div class="day-card__text">
+                            <p>
+                                2026-yil bozor tahlili, o’sayotgan biznes g’oyalar. Qanday qilib 10tadan 7 tasiga savdo
+                                qilish sirlari. Fikrlash va ichki to’siqlar va samarali reklama sirlari
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="day-card day-card--3 day-card--live">
+
+                    <div class="day-card__head">
+                        <div class="day-card__bg"></div>
+                        <h3 class="day-card__day">3-KUN</h3>
+                        <img class="day-card__icon" src="./images/topics/icons.avif" loading="lazy" decoding="async"
+                            width="49" height="57" alt="icons" />
+                    </div>
+
+                    <h4 class="day-card__time" style="color: white;">️🗓️ 11-Yanvar ⏰ 11:00-19:00</h4>
+
+                    <div class="day-card__lines"></div>
+                    <h2 class="day-card__titles" style="color: white; position: relative;">
+                        Biznes uchun kuchli brend <br />
+                        qilish <span class="day-card__live-badge">JONLI EFIRDA!</span>
+                    </h2>
+                    <div class="day-card__lines"></div>
+
+                    <div class="day-card__text" style="background-color: #4C1D95;">
+                        <p style="color: white;">
+                            Shaxsiy brend, onlayn savdoni oshirish. Kuchli jamoa yollash va boshqarish, katta pulni
+                            qanday qilib ishlab topish mumkin
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="gradient"></div>
+        <div class="container benefits__container">
+            <h2 class="benefits__title">
+                <span>10 yil</span> va <span>35 milliard so’mdan</span>
+                ortiq pul topganimdan so’ng,
+                men onlayn dunyoning eng katta to’lqinlaridan birini kashf etish arafasidaman.
+            </h2>
+
+            <p class="benefits__subtitle">Va bu bilimlarimni qanday <br class="only__mobile"> foydalanishingiz mumkin
+            </p>
+            <div class="benefits__grid">
+                <div class="benefit-card">
+                    <img class="benefit-card__img" src="./images/benefit/1.avif" loading="lazy" decoding="async"
+                        width="325" height="200" alt="images" />
+                    <div class="benefit-card__min">
+                        <h3 class="benefit-card__title">Qo’shimcha daromad olish uchun</h3>
+                        <p class="benefit-card__text">Siz allaqachon qilayotgan <br /> ishingizni tashlab qo’ymasdan.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <img class="benefit-card__img" src="./images/benefit/2.avif" loading="lazy" decoding="async"
+                        width="325" height="200" alt="images" />
+                    <div class="benefit-card__min">
+                        <h3 class="benefit-card__title">Geografik erkinlikka ega bo’lish</h3>
+                        <p class="benefit-card__text">Dunyoning istalgan nuqtasidan <br /> istalgan joyda ishlang.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <img class="benefit-card__img" src="./images/benefit/3.avif" loading="lazy" decoding="async"
+                        width="325" height="200" alt="images" />
+                    <div class="benefit-card__min">
+                        <h3 class="benefit-card__title">Vaqt erkinligi uchun</h3>
+                        <p class="benefit-card__text">Xohlagan vaqtingizda, kim bilan, <br /> xohlasangiz, shu bilan
+                            ishlang
+                    </div>
+                    </p>
+                </div>
+            </div>
+
+            <h4 class="benefits__note">
+                Va juda kech bo'lmasdan oldin, Biznesning ushbu usulini hoziroq o’rganishingiz kerak.
+            </h4>
+            <div class="hero__btn-box">
+                <button class="hero__btn registerBtn">BEPUL QATNASHISH</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container about__container">
+            <h2 class="about__title">Nima uchun meni eshitishingiz kerak</h2>
+
+            <div class="about__list">
+                <div class="about__item only__desktop">
+                    <img class="about__img" src="./images/about/1.avif" loading="lazy" decoding="async" width="407"
+                        height="401" alt="images" />
+
+                    <img class="about__divider" src="./images/about/start.avif" loading="lazy" decoding="async"
+                        width="50" height="385" alt="images" />
+
+                    <div class="about__content">
+                        <h3 class="about__content__title">Noldan boshlab, 24 yoshimda ayollar kiyimlari sohasida
+                            biznesni qurdim.
+                        </h3>
+
+                        <p class="about__text">
+                            Bloggerlar va yulduzlar bilan, millionlab obunachilari borlar bilan ishladik, keyin men
+                            ayollar kiyimlari sohasi bo'yicha biznes ta'limiga o'tdim. Yana o’quvchilar noldan sof foyda
+                            jihatidan eng tez o’suvchi o’quv darslarini qurdim.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="only__mobile" style="gap: 21px;">
+                    <img class="about__divider" src="./images/about/start.avif" loading="lazy" decoding="async"
+                        width="50" height="385" alt="images" />
+
+                    <div class="about__content">
+                        <h3 class="about__content__title">Noldan boshlab, 24 <br> yoshimda ayollar kiyimlari <br>
+                            sohasida
+                            biznesni qurdim.
+                        </h3>
+
+                        <img class="about__img" src="./images/about/1.avif" loading="lazy" decoding="async" width="407"
+                            height="401" alt="images" />
+
+                        <p class="about__text">
+                            Bloggerlar va yulduzlar bilan, millionlab obunachilari borlar bilan ishladik, keyin men
+                            ayollar kiyimlari sohasi bo'yicha biznes ta'limiga o'tdim. Yana o’quvchilar noldan sof foyda
+                            jihatidan eng tez o’suvchi o’quv darslarini qurdim.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="about__item about--reverse only__desktop" style="gap: 32px;">
+                    <div class="about__content" style="margin-right: -80px;">
+                        <h3 class="about__content__title">Shaxsan tovarlar sotib olish uchun fabrikalar <br> bilan
+                            tanishib
+                            chiqdim.
+                        </h3>
+                        <p class="about__text">
+                            Xitoy 🇨🇳, Turkiya 🇹🇷, Qirg'iziston 🇰🇬 2 yil ayollar kiyimlarini optom sotdim va
+                            birinchi bo'lib ulgurji bozorga drop shipping yuk tashish tizimini joriy qildim (optom
+                            telegram kanalimda 1000 dan ortiq onlayn do'konlar bor edi)
+                        </p>
+                    </div>
+
+                    <img class="about__divider" src="./images/about/start.avif" loading="lazy" decoding="async"
+                        width="50" height="385" alt="images" />
+                    <img class="about__img" src="./images/about/2.avif" loading="lazy" decoding="async" width="407"
+                        height="401" alt="images" />
+                </div>
+
+                <div class="only__mobile" style="gap: 21px;">
+                    <img class="about__divider" src="./images/about/start.avif" loading="lazy" decoding="async"
+                        width="50" height="385" alt="images" />
+
+                    <div class="about__content">
+                        <h3 class="about__content__title">Shaxsan tovarlar sotib <br> olish uchun fabrikalar <br> bilan
+                            tanishib chiqdim.
+                        </h3>
+
+                        <img class="about__img" src="./images/about/2.avif" loading="lazy" decoding="async" width="407"
+                            height="401" alt="images" />
+
+                        <p class="about__text">
+                            Xitoy 🇨🇳, Turkiya 🇹🇷, Qirg'iziston 🇰🇬 2 yil ayollar kiyimlarini optom sotdim va
+                            birinchi bo'lib ulgurji bozorga drop shipping yuk tashish tizimini joriy qildim (optom
+                            telegram kanalimda 1000 dan ortiq onlayn do'konlar bor edi)
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="about__item only__desktop">
+                    <img class="about__img" src="./images/about/3.avif" loading="lazy" decoding="async" width="407"
+                        height="401" alt="images" />
+                    <img class="about__divider" src="./images/about/start.avif" loading="lazy" decoding="async"
+                        width="50" height="385" alt="images" />
+
+                    <div class="about__content">
+                        <h3 class="about__content__title">Boshlang'ich kapitalsiz 7 milliard so’mlik kiyim-kechak
+                            sotganman.</h3>
+                        <p class="about__text">
+                            Men sayohat qila olaman, natija bera olaman. Shuning uchun aqlli odamlar mening eshitishadi
+                            va o'qiydilar. Siz ham o’rganing.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="only__mobile" style="gap: 21px;">
+                    <img class="about__divider" src="./images/about/start.avif" loading="lazy" decoding="async"
+                        width="50" height="385" alt="images" />
+
+                    <div class="about__content">
+                        <h3 class="about__content__title">Boshlang'ich kapitalsiz <br> 7 milliard so’mlik kiyim-
+                            <br>kechak
+                            sotganman.
+                        </h3>
+
+                        <img class="about__img" src="./images/about/3.avif" loading="lazy" decoding="async" width="407"
+                            height="401" alt="images" />
+
+                        <p class="about__text">
+                            Men sayohat qila olaman, natija bera olaman. Shuning uchun aqlli odamlar mening eshitishadi
+                            va  o'qiydilar. Siz ham o’rganing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="gradients"></div>
+        <div class="container cta__container">
+            <div class="cta__box">
+                <div class="topics__label">
+                    <p class="topics__label-text">DIQQAT!</p>
+                </div>
+
+                <h3 class="cta__title">O’z joyingizni pastdagi tugma <br> orqali band qiling</h3>
+
+                <div class="hero__btn-box">
+                    <button class="hero__btn registerBtn">BEPUL QATNASHISH</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <h3 class="footer__title">
+                This site or product is not part of or endorsed by Facebook, Google, or any social media platform in any
+                way FACEBOOK is a trademark of META PLATFORMS, Inc. YOUTUBE and GOOGLE are trademarks of ALPHABET, Inc.
+            </h3>
+            <p class="footer__text">Barcha huquqlar himoyalangan, 2026.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="registrationModal" class="homeModal" style="display: none">
+        <div class="homeModalOverlay"></div>
+        <div class="homeFormContainer">
+            <button class="closeButton" id="closeModalBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop">
+                <h1 class="homeFormTopTitle">
+                    Ro'yxatdan o'tish uchun ma'lumotlaringizni kiriting!
+                </h1>
+            </div>
+            <form id="registrationForm" name="contact-form">
+                <!-- ISM -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="name">Ismingiz:</label>
+                    <input class="HomeFormRowInput" type="text" id="name" name="name" placeholder="Ismingizni kiriting"
+                        autocomplete="name" />
+                    <p class="homeFormErrorText" id="nameError" style="display: none">
+                        ❌ Ismingizni kiriting!
+                    </p>
+                </div>
+
+                <!-- TELEFON -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+
+                    <div class="phone-input-container">
+                        <!-- LEFT: country -->
+                        <button type="button" class="selected-country" id="selectedCountry">
+                            <span class="selected-flag" id="selectedCountryFlag">🇺🇿</span>
+
+                            <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                            <span class="selected-code" id="selectedCountryCodeText">+998</span>
+                        </button>
+
+                        <!-- dropdown -->
+                        <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
+
+                        <!-- RIGHT: phone input (number span inside) -->
+                        <div class="phone-field">
+                            <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone"
+                                inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel"
+                                style="border: none; background-color: transparent;padding-left: 5px;" />
+                        </div>
+                    </div>
+
+                    <p class="homeFormErrorText" id="phoneError" style="display:none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+
+
+                <button type="button" class="HomeFormBtn" id="submitBtn">
+                    DAVOM ETISH
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <script defer src="./js/phoneFormatter.js"></script>
+    <script defer src="./js/app.js"></script>
+</body>
+
+</html>

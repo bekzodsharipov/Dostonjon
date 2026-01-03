@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obuna Bo'lish</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .bonus {
+            padding-top: 192px;
+            padding-bottom: 205px;
+        }
+
+        .bonus__container {
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bonus__title {
+            font-family: "Helvetica Neue", sans-serif;
+            font-weight: 700;
+            font-size: clamp(25px, 8vw, 60px);
+            line-height: 150%;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+
+        .bonus__desc {
+            font-family: "Helvetica Neue", sans-serif;
+            font-weight: 500;
+            /* font-size: clamp(16px 4vw, 22px); */
+            font-size: clamp(16px, 5vw, 22px);
+            line-height: 130%;
+            max-width: 576px;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 39px;
+        }
+
+        .bonus__desc span {
+            color: #FF0000;
+        }
+
+
+        .bonus__arrow {
+            margin-bottom: 39px;
+            height: 90px;
+        }
+
+        .bonus__btn {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            color: white;
+            font-family: "Helvetica Neue", sans-serif;
+            font-weight: 700;
+            font-size: clamp(15px, 4.5vw, 26px);
+            text-decoration: none;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: 103px;
+            background: linear-gradient(90deg, #00A0DE 0%, #29B5F6 51.44%, #00A0DE 100%);
+            border: none;
+            cursor: pointer;
+            padding: 37px 0;
+            max-width: 570px;
+            width: 100%;
+            justify-content: center;
+            box-shadow: 0px 7px 0px 0px #1A5E80;
+            margin-bottom: 54px;
+        }
+
+        .bonus__btn img {
+            max-width: 37px;
+            width: 100%;
+        }
+
+        .bonus__gift {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .bonus__gift img {
+            max-width: 90px;
+            width: 100%;
+        }
+
+        .bonus__gift-text {
+            font-family: "Helvetica Neue", sans-serif;
+            font-weight: 500;
+            font-size: clamp(12px, 3.3vw, 19px);
+            line-height: 130%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .bonus__gift-text span {
+            color: #FF0000;
+        }
+
+        @media (max-width:380px) {
+            .bonus__btn {
+                padding: 27px 0;
+                gap: 18px;
+            }
+
+            .bonus__btn img {
+                max-width: 22px;
+                width: 100%;
+            }
+
+            .bonus__gift img {
+                max-width: 56px;
+                width: 100%;
+            }
+
+            .bonus {
+                padding-top: 82px;
+                padding-bottom: 253px;
+            }
+
+            .bonus__arrow {
+                margin-bottom: 30px;
+            }
+
+            .bonus__desc {
+                margin-bottom: 22px;
+            }
+            .bonus__title {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+       <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+       <noscript>
+           <link rel="stylesheet" href="./css/main.css" />
+       </noscript>
+</head>
+
+<body>
+    <section class="bonus">
+        <div class="hero__container bonus__container">
+            <h2 class="bonus__title">To’xtang! <br> oxirgi qadam qoldi!</h2>
+
+            <p class="bonus__desc">
+                Siz ro‘yxatdan o‘tdingiz! Endi
+                <span>
+                    bepul dars va bonuslarni
+                    olish uchun quyidagi
+                </span>
+                tugmani bosing. Agar hozir
+                bosmasangiz — dars havolasi yo‘qoladi⏱️
+            </p>
+
+            <img class="bonus__arrow" src="./images/arrow.png" loading="lazy" decoding="async" alt="arrow" />
+
+            <a href="#" class="bonus__btn" type="button">
+                <span class="bonus__btn-text">TELEGRAM KANALGA KIRISH</span>
+                <img class="bonus__btn-icon" src="./images/telegram.png" loading="lazy" decoding="async"
+                    alt="telegram icon" />
+            </a>
+
+            <div class="bonus__gift">
+                <img class="bonus__gift-img" src="./images/bonus.avif" loading="lazy" decoding="async" alt="bonus" />
+
+                <p class="bonus__gift-text">
+                    2025 yilda sinovdan o'tgan va minimal pul bilan
+                    boshlanadigan 5 ta biznes g'oya +
+                    <span>
+                        7 kunda foydani 2 barobar
+                        ko'paytirish video darsi
+                    </span>
+                    Telegram kanalda sovg'a sifatida!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script defer src="./js/thankYou.js"></script>
+</body>
+
+</html>
